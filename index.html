@@ -3,10 +3,42 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="DR0AS">
-    <meta des
-    <title></title>
+    <title>Fill out form</title>
   </head>
   <body>
-
+    <h1>Registro en Nuestra Tienda</h1>
+    <form>
+      <br>
+      Nombre:<br>
+      <input type="text" name="Nombre" placeholder="Ej. Luis"><br>
+      <br>
+      Email:<br>
+      <input type="text" name="Email" placeholder="tucorreo@dominio.com"><br>
+      <br>
+      Edad:<br>
+      <input type="number" name="Edad" placeholder="Ej. 33"><br>
+      <br>
+      Genero:<br>
+      <input type="radio" name="Genero" value="Masculino" checked> Masculino<br>
+      <input type="radio" name="Genero" value="Femenino"> Femenino<br>
+      <input type="radio" name="Genero" value="Otro"> Otro<br>
+      <br>
+      Recomendado:<br>
+      <select>
+          <option value="1">Selecione una opcion</option>
+          <option value="2">Redes Sociales</option>
+          <option value="3">Un Amigo</option>
+          <option value="4">Google</option>
+      </select><br>
+      <br>
+      Comentarios:<br>
+      <TEXTAREA COLS=40 ROWS=10 NAME="Texto"></TEXTAREA><br>
+      <br>
+      <div>
+      <input type="checkbox" id="Acepto Teerminos y condiciones" name="Acepto" value="Acepto Teerminos y condiciones">
+      <label for="subscribeNews">Acepto Teerminos y condiciones</label>
+    </div><br>
+      <input type="submit" value="Registrar">
+    </form>
   </body>
 </html>
